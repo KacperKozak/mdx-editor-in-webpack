@@ -25,6 +25,8 @@ module.exports = {
       },
       {
         test: /\.css$/,
+        // Very important to have sideEffects: true, without it, the css will not be loaded
+        sideEffects: true,
         use: ["style-loader", "css-loader"],
       },
     ],

@@ -28,7 +28,6 @@ export const App = () => {
       <h1>Hello Webpack + Babel + TypeScript</h1>
 
       <MDXEditor
-        className="editor"
         markdown={value}
         onChange={setValue}
         plugins={[
